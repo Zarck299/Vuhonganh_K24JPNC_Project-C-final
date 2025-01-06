@@ -3,15 +3,12 @@
 #include "functions.h"
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 int main(int argc, char *argv[]) {
-    void saveDataToFile(Student students[],const char *filename);
-    void loadDataFromFile(Student students[],const char *filename);
-	int choice;
+    int choice;
     int count = 0;
     int choiceAdmin;
     int currentLength;
     Student students[1000];
     Teacher teacher[1000];
-//    Classroom classroom[1000];
     while(1){
         displayMenu();
         if (scanf("%d", &choice) != 1) {

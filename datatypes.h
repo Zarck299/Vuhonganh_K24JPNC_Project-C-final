@@ -13,11 +13,6 @@ typedef struct Student{
 	char password[20];
 	int noOfcourse;
 } Student;
-//typedef struct Classroom{
-//	char classroomId[10];
-//	char teacherId[10];
-//	char classroomName[10];
-//} Classroom;
 typedef struct Teacher{
 	int teacherId;
 	char classroomId[10];
